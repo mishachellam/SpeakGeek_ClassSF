@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Semantic Profile (vCard)</title>
+    <link href="../css/profile.3.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <figure class="vcard" title="Firstname Lastname">
+      <img class="photo" src="../../../images/avatar.jpg">
+      
+      <figcaption class="profile">
+        <header class="n" title="Name">
+          <h1 class="fn">
+            <span class="given-name">Firstname</span> 
+            <!--<span class="additional-name">Middlename</span> -->
+            <span class="family-name">Lastname</span>
+          </h1>
+          (<span class="nickname">Nickname</span>)
+        </header>
+
+        <div class="org" title="Organization">
+          <div class="vcard">
+            <span class="organization-name fn">Organization Name</span>
+            <div class="adr">
+              <span class="street-address">6601 N Monroe</span>
+              <span class="locality">Tallahassee</span>, 
+              <abbr class="region" title="Florida">FL</abbr> 
+              <abbr class="postal-code" title="32303-9329">32303</abbr>
+              <abbr class="country-name" title="United States">USA</abbr> 
+               <span class="geo"><abbr class="latitude" title="60.6060606060">60.6060606060</abbr> <abbr class="longitude"title="-60.6060606060">-60.6060606060</abbr></span>
+            </div>
+          </div>
+          <span class="organization-unit">Unit</span> <span class="title">Job Title</span>
+        </div>
+
+        <address class="adr" title="Location">
+          <span class="street-address">1532 Chadwick way</span>
+          <span class="locality">Tallahassee</span>, 
+          <abbr class="region" title="Florida">FL</abbr> 
+          <abbr class="postal-code" title="32303-9329">32312</abbr> 
+          <abbr class="country-name" title="United States">USA</abbr> 
+          <span class="geo">
+            <abbr class="latitude" title="30.3030303030">30.3030303030</abbr> 
+            <abbr class="longitude" title="-30.3030303030">-30.30303030</abbr>
+          </span>
+        </address>
+
+        <a class="email" href="mailto:email">test@example.org</a>
+
+        <ul>
+          <li class="tel">
+            <abbr class="type" title="home pref">Home:</abbr>
+            <abbr class="value" title="+1##########">(###) ###-####</abbr>
+          </li>
+          <li class="tel">
+            <abbr class="type" title="work">Office:</abbr>
+            <abbr class="value" title="+1##########">(###) ###-####</abbr>
+          </li>
+          <li class="tel">
+            <abbr class="type" title="mobile">Cell:</abbr>
+            <abbr class="value" title="+1##########">(###) ###-####</abbr>
+          </li>
+          <li class="tel">
+            <abbr class="type" title="fax">Fax:</abbr>
+            <abbr class="value" title="+1##########">(###) ###-####</abbr>
+          </li>
+        </ul>
+      </figcaption>
+    </figure>
+  </body>
+</html>
+
+<!-- http://rachaelmoore.name/posts/design/html/html5-microdata-contact-info/ -->

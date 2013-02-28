@@ -1,0 +1,20 @@
+.photo {
+  float: left;
+}
+
+.info {
+  float: left;
+  margin-left: 20px;
+}
+
+.info h1, .info h2 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.info h1 {
+  line-height: 0.5;
+}
+
+.info table td:first-child {
+  color: gray;
+}
