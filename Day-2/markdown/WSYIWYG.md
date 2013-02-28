@@ -12,7 +12,7 @@ Working a lot with Node.js. Building a publishing platform. Have created several
 
 _September 2010 - October 2011 (1 year 2 months) Greater Chicago Area_
 
-Built a loyalty program framework for local businesses with Ruby on Rails 3. This included a full-stack web app (biglobby.com) with real-time metrics -- tracking everything to do with how customers used deals and rewards -- thanks to MongoDB. Everything was HTML5, unobtrusive jQuery, Haml, SCSS, marked up with schema.org semantics for people, offers, organizations, etc.. Automated model/view/acceptance testing made life a lot simpler. Also built an iPad app with PhoneGap that the local businesses used like a cash register for tracking reward usage - customers just swipe their Big Lobby card with a QR code. Built a mobile app as well to find nearby Big Lobby deals and reward programs. Finally, built a touch-screen version of the deals feed for a 36″ kiosk we put in about a dozen of the biggest office buildings in the western suburbs of Chicago. Demoed web and iPad apps at Tech Crunch Disrupt in New York in May. Refactored a lot of it to Ruby gems. http://lancepollard.com for screenshots and links.
+Built a loyalty program framework for local businesses with Ruby on Rails 3. This included a full-stack web app (biglobby.com) with real-time metrics -- tracking everything to do with how customers used deals and rewards -- thanks to MongoDB. Everything was HTML5, unobtrusive jQuery, Haml, SCSS, marked up with schema.org semantics for people, offers, organizations, etc.. Automated model/view/acceptance testing made life a lot simpler. 
 
 ## iLove4D
 ### Lead Developer, Partner
